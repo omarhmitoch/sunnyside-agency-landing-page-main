@@ -627,3 +627,26 @@ footer ul.social li svg:hover path {
     font-size: 25px;
   }
 }
+
+/* custom scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top, var(--yellow), var(--soft-red));
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, var(--yellow), var(--soft-red));
+}
